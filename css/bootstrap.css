@@ -371,6 +371,26 @@ img {
   height: auto;
 }
 
+.img-grayscale {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: gray;
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+}
+
+.div-center-horizon{
+    display: table-cell; vertical-align: middle 
+}
+
+.img-grayscale:hover {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  opacity:  1;
+  filter:  none;
+}
 .img-rounded {
   border-radius: 6px;
 }
