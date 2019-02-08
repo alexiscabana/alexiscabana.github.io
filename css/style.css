@@ -1882,3 +1882,7 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.boxed {
+  border: 1px solid gray ;
+} 
