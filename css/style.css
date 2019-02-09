@@ -550,37 +550,97 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-testimonial .gtco-testimony {
   float: left;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .gtco-testimonial .gtco-left > div {
   display: table-cell;
   float: left;
-  width: 80px;
+  width: 150px;
 }
 .gtco-testimonial .gtco-left > div img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
   max-width: 100% !important;
 }
 .gtco-testimonial .gtco-left > blockquote {
-  padding-left: 20px;
   display: table-cell;
   border-left: none;
   margin: 0;
   padding: 0 0 0 30px;
+  font-size: 33px;
 }
 .gtco-testimonial .gtco-left > blockquote p {
-  font-style: 16px;
-  font-style: italic;
+  font-style: 25px;
 }
-.gtco-testimonial .gtco-left > blockquote .author {
+.gtco-testimonial .gtco-left > blockquote .ecole {
   color: #666666;
   display: block;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.ecole {
+  color: #666666;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.poste {
+  display: table-cell;
+  border-left: none;
+  margin: 0;
+  padding: 0 0 0 0px;
+  font-size: 33px;
+}
+
+.dates {
+  display: block;
+  float: right;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+}
+.datesechange {
+  display: block;
+  float: right;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  margin-top: 80px;
+}
+
+.diplomedesc {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.echange {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.postedesc  {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
   margin-top: 20px;
-  font-size: 12px;
-  font-weight: 700;
+}
+.compagnie  {
+  margin-bottom: 40px;
+}
+.proglang{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.interests {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 50px;
 }
 
 #gtco-footer {
@@ -749,18 +809,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-contact-info {
-  margin-bottom: 30px;
-  float: left;
-  width: 100%;
-  position: relative;
+  margin-bottom: 10px;
+  width: 40%;
 }
 .gtco-contact-info ul {
   padding: 0;
   margin: 0;
 }
 .gtco-contact-info ul li {
-  padding: 0 0 0 50px;
-  margin: 0 0 30px 0;
+  padding: 0 0 0 40px;
+  margin: 0 0 10px 0;
   list-style: none;
   position: relative;
 }
@@ -1886,3 +1944,4 @@ form label {
 .boxed {
   border: 1px solid gray ;
 } 
+
